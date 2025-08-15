@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact • Ondia Morris</title>
+  <meta name="description" content="Official site of Ondia Morris — Jamaican-born author of romance and sci‑fi with Black women at the heart of the story." />
+  <meta property="og:title" content="Contact • Ondia Morris" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Books, news, and contact for author Ondia Morris." />
+  <meta property="og:image" content="https://m.media-amazon.com/images/I/81xQ+2WlSgL._SY600_.jpg" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav>
+  <div class="inner">
+    <a class="brand" href="index.html">Ondia Morris</a>
+    <div class="links" role="navigation" aria-label="Main">
+      <a href="index.html" >Home</a>
+      <a href="books.html" >Books</a>
+      <a href="about.html" >About</a>
+      <a href="blog.html" >Blog</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+<section class="container">
+  <h1>Contact</h1>
+  <p>For rights, press, or events, email <a href="mailto:ondia@example.com">ondia@example.com</a>, or use the form below.</p>
+  <form action="mailto:ondia@example.com" method="post" enctype="text/plain">
+    <label for="name">Name</label>
+    <input id="name" name="name" required>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+    <button class="btn" type="submit">Send</button>
+    <small>Uses <code>mailto:</code> for zero‑cost contact. You can switch to Formspree later.</small>
+  </form>
+  <h2>Elsewhere</h2>
+  <ul>
+    <li><a href="https://www.amazon.com/stores/author/B072YY3H3K" target="_blank" rel="noopener">Amazon Author Page</a> · 
+        <a href="https://www.goodreads.com/author/show/16885811.Ondia_Morris" target="_blank" rel="noopener">Goodreads</a> · 
+        <a href="https://www.instagram.com/ondiamorris/" target="_blank" rel="noopener">Instagram</a></li>
+  </ul>
+</section>
+
+<footer class="container">
+  <div>© <span id="year"></span> Ondia Morris. All rights reserved.</div>
+  <div class="badges">
+    <span class="badge">Built on GitHub Pages</span>
+    <span class="badge">Free starter</span>
+  </div>
+</footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

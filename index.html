@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home • Ondia Morris</title>
+  <meta name="description" content="Official site of Ondia Morris — Jamaican-born author of romance and sci‑fi with Black women at the heart of the story." />
+  <meta property="og:title" content="Home • Ondia Morris" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Books, news, and contact for author Ondia Morris." />
+  <meta property="og:image" content="https://m.media-amazon.com/images/I/81xQ+2WlSgL._SY600_.jpg" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav>
+  <div class="inner">
+    <a class="brand" href="index.html">Ondia Morris</a>
+    <div class="links" role="navigation" aria-label="Main">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="books.html" >Books</a>
+      <a href="about.html" >About</a>
+      <a href="blog.html" >Blog</a>
+      <a href="contact.html" >Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+<header class="hero container">
+  <h1>Hi, I'm Ondia Morris</h1>
+  <p>Jamaican-born author of romance and sci‑fi where Black women lead — with danger, heart, and happily‑ever‑afters.</p>
+  <p style="margin-top:16px">
+    <a class="btn" href="books.html">See my books</a>
+  </p>
+</header>
+
+<section class="container">
+  <div class="grid">
+    <article class="card">
+      <h3>Latest release</h3>
+      <figure><img src="https://m.media-amazon.com/images/I/71yqgXgZ0XL._SY522_.jpg" alt="A Fated Encounter cover"></figure>
+      <p><strong>A Fated Encounter</strong> — Book 2 of the Modified Mates series.</p>
+      <a class="btn" href="https://www.amazon.com/dp/B0CG3KV4R6" target="_blank" rel="noopener">Read more</a>
+    </article>
+    <article class="card">
+      <h3>Newsletter</h3>
+      <p>Get new release news and freebies. No spam.</p>
+      <form action="https://buttondown.email/api/emails/embed-subscribe/ondiamorris" method="post" target="_blank">
+        <label for="bd-email">Email</label>
+        <input type="email" name="email" id="bd-email" placeholder="you@example.com" required>
+        <input type="hidden" value="1" name="embed" />
+        <button class="btn" type="submit">Subscribe</button>
+        <small>Powered by Buttondown (free tier).</small>
+      </form>
+    </article>
+    <article class="card">
+      <h3>Events</h3>
+      <ul class="clean">
+        <li><strong>July 13</strong> – Oxford Indie Book Fair (table 9)</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<footer class="container">
+  <div>© <span id="year"></span> Ondia Morris. All rights reserved.</div>
+  <div class="badges">
+    <span class="badge">Built on GitHub Pages</span>
+    <span class="badge">Free starter</span>
+  </div>
+</footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
